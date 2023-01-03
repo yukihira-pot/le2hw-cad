@@ -1,0 +1,26 @@
+|fulladder
+Cout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A => halfadder:inst.A
+B => halfadder:inst.B
+Cin => halfadder:inst2.B
+Sum <= halfadder:inst2.Sum
+
+
+|fulladder|halfadder:inst2
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst4.IN0
+B => inst.IN1
+B => inst4.IN1
+Sum <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|fulladder|halfadder:inst
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst4.IN0
+B => inst.IN1
+B => inst4.IN1
+Sum <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+

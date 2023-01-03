@@ -1,0 +1,756 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect 256 120 424 136)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "in" (rect 5 0 14 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(output)
+	(rect 648 360 824 376)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "out[15..0]" (rect 90 0 137 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(symbol
+	(rect 464 112 512 144)
+	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
+	(text "inst4" (rect 3 21 25 38)(font "Intel Clear" (font_size 6)))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 14 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 32 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 14 7)(pt 32 16))
+		(line (pt 14 25)(pt 14 7))
+		(line (pt 14 25)(pt 32 16))
+	)
+)
+(symbol
+	(rect 464 128 512 160)
+	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
+	(text "inst5" (rect 3 21 25 38)(font "Intel Clear" (font_size 6)))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 14 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 32 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 14 7)(pt 32 16))
+		(line (pt 14 25)(pt 14 7))
+		(line (pt 14 25)(pt 32 16))
+	)
+)
+(symbol
+	(rect 464 144 512 176)
+	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
+	(text "inst9" (rect 3 21 25 38)(font "Intel Clear" (font_size 6)))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 14 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 32 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 14 7)(pt 32 16))
+		(line (pt 14 25)(pt 14 7))
+		(line (pt 14 25)(pt 32 16))
+	)
+)
+(symbol
+	(rect 464 160 512 192)
+	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
+	(text "inst10" (rect 3 21 31 38)(font "Intel Clear" (font_size 6)))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 14 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 32 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 14 7)(pt 32 16))
+		(line (pt 14 25)(pt 14 7))
+		(line (pt 14 25)(pt 32 16))
+	)
+)
+(symbol
+	(rect 464 176 512 208)
+	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
+	(text "inst11" (rect 3 21 31 38)(font "Intel Clear" (font_size 6)))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 14 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 32 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 14 7)(pt 32 16))
+		(line (pt 14 25)(pt 14 7))
+		(line (pt 14 25)(pt 32 16))
+	)
+)
+(symbol
+	(rect 464 192 512 224)
+	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
+	(text "inst12" (rect 3 21 31 38)(font "Intel Clear" (font_size 6)))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 14 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 32 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 14 7)(pt 32 16))
+		(line (pt 14 25)(pt 14 7))
+		(line (pt 14 25)(pt 32 16))
+	)
+)
+(symbol
+	(rect 464 208 512 240)
+	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
+	(text "inst13" (rect 3 21 31 38)(font "Intel Clear" (font_size 6)))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 14 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 32 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 14 7)(pt 32 16))
+		(line (pt 14 25)(pt 14 7))
+		(line (pt 14 25)(pt 32 16))
+	)
+)
+(symbol
+	(rect 464 224 512 256)
+	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
+	(text "inst15" (rect 3 21 31 38)(font "Intel Clear" (font_size 6)))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 14 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 32 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 14 7)(pt 32 16))
+		(line (pt 14 25)(pt 14 7))
+		(line (pt 14 25)(pt 32 16))
+	)
+)
+(symbol
+	(rect 464 240 512 272)
+	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
+	(text "inst16" (rect 3 21 31 38)(font "Intel Clear" (font_size 6)))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 14 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 32 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 14 7)(pt 32 16))
+		(line (pt 14 25)(pt 14 7))
+		(line (pt 14 25)(pt 32 16))
+	)
+)
+(symbol
+	(rect 464 256 512 288)
+	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
+	(text "inst17" (rect 3 21 31 38)(font "Intel Clear" (font_size 6)))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 14 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 32 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 14 7)(pt 32 16))
+		(line (pt 14 25)(pt 14 7))
+		(line (pt 14 25)(pt 32 16))
+	)
+)
+(symbol
+	(rect 464 272 512 304)
+	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
+	(text "inst19" (rect 3 21 31 38)(font "Intel Clear" (font_size 6)))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 14 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 32 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 14 7)(pt 32 16))
+		(line (pt 14 25)(pt 14 7))
+		(line (pt 14 25)(pt 32 16))
+	)
+)
+(symbol
+	(rect 464 288 512 320)
+	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
+	(text "inst20" (rect 3 21 31 38)(font "Intel Clear" (font_size 6)))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 14 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 32 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 14 7)(pt 32 16))
+		(line (pt 14 25)(pt 14 7))
+		(line (pt 14 25)(pt 32 16))
+	)
+)
+(symbol
+	(rect 464 304 512 336)
+	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
+	(text "inst21" (rect 3 21 31 38)(font "Intel Clear" (font_size 6)))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 14 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 32 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 14 7)(pt 32 16))
+		(line (pt 14 25)(pt 14 7))
+		(line (pt 14 25)(pt 32 16))
+	)
+)
+(symbol
+	(rect 464 320 512 352)
+	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
+	(text "inst22" (rect 3 21 31 38)(font "Intel Clear" (font_size 6)))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 14 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 32 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 14 7)(pt 32 16))
+		(line (pt 14 25)(pt 14 7))
+		(line (pt 14 25)(pt 32 16))
+	)
+)
+(symbol
+	(rect 464 336 512 368)
+	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
+	(text "inst23" (rect 3 21 31 38)(font "Intel Clear" (font_size 6)))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 14 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 32 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 14 7)(pt 32 16))
+		(line (pt 14 25)(pt 14 7))
+		(line (pt 14 25)(pt 32 16))
+	)
+)
+(symbol
+	(rect 464 352 512 384)
+	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
+	(text "inst24" (rect 3 21 31 38)(font "Intel Clear" (font_size 6)))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 14 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 32 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 14 7)(pt 32 16))
+		(line (pt 14 25)(pt 14 7))
+		(line (pt 14 25)(pt 32 16))
+	)
+)
+(connector
+	(text "out[15..0]" (rect 591 352 635 369)(font "Intel Clear" (font_size 6)))
+	(pt 576 368)
+	(pt 648 368)
+	(bus)
+)
+(connector
+	(pt 424 128)
+	(pt 448 128)
+)
+(connector
+	(pt 448 128)
+	(pt 464 128)
+)
+(connector
+	(pt 448 144)
+	(pt 464 144)
+)
+(connector
+	(pt 448 128)
+	(pt 448 144)
+)
+(connector
+	(pt 448 160)
+	(pt 464 160)
+)
+(connector
+	(pt 448 144)
+	(pt 448 160)
+)
+(connector
+	(pt 448 176)
+	(pt 464 176)
+)
+(connector
+	(pt 448 160)
+	(pt 448 176)
+)
+(connector
+	(pt 448 192)
+	(pt 464 192)
+)
+(connector
+	(pt 448 176)
+	(pt 448 192)
+)
+(connector
+	(pt 448 208)
+	(pt 464 208)
+)
+(connector
+	(pt 448 192)
+	(pt 448 208)
+)
+(connector
+	(pt 448 224)
+	(pt 464 224)
+)
+(connector
+	(pt 448 208)
+	(pt 448 224)
+)
+(connector
+	(pt 448 240)
+	(pt 464 240)
+)
+(connector
+	(pt 448 224)
+	(pt 448 240)
+)
+(connector
+	(pt 448 256)
+	(pt 464 256)
+)
+(connector
+	(pt 448 240)
+	(pt 448 256)
+)
+(connector
+	(pt 448 272)
+	(pt 464 272)
+)
+(connector
+	(pt 448 256)
+	(pt 448 272)
+)
+(connector
+	(pt 448 288)
+	(pt 464 288)
+)
+(connector
+	(pt 448 272)
+	(pt 448 288)
+)
+(connector
+	(pt 448 304)
+	(pt 464 304)
+)
+(connector
+	(pt 448 288)
+	(pt 448 304)
+)
+(connector
+	(pt 448 320)
+	(pt 464 320)
+)
+(connector
+	(pt 448 304)
+	(pt 448 320)
+)
+(connector
+	(pt 448 336)
+	(pt 464 336)
+)
+(connector
+	(pt 448 320)
+	(pt 448 336)
+)
+(connector
+	(pt 448 352)
+	(pt 464 352)
+)
+(connector
+	(pt 448 336)
+	(pt 448 352)
+)
+(connector
+	(pt 448 352)
+	(pt 448 368)
+)
+(connector
+	(pt 448 368)
+	(pt 464 368)
+)
+(connector
+	(pt 576 128)
+	(pt 576 144)
+	(bus)
+)
+(connector
+	(pt 576 144)
+	(pt 576 160)
+	(bus)
+)
+(connector
+	(pt 576 160)
+	(pt 576 176)
+	(bus)
+)
+(connector
+	(pt 576 176)
+	(pt 576 192)
+	(bus)
+)
+(connector
+	(pt 576 192)
+	(pt 576 208)
+	(bus)
+)
+(connector
+	(pt 576 208)
+	(pt 576 224)
+	(bus)
+)
+(connector
+	(pt 576 224)
+	(pt 576 240)
+	(bus)
+)
+(connector
+	(pt 576 240)
+	(pt 576 256)
+	(bus)
+)
+(connector
+	(pt 576 256)
+	(pt 576 272)
+	(bus)
+)
+(connector
+	(pt 576 272)
+	(pt 576 288)
+	(bus)
+)
+(connector
+	(pt 576 288)
+	(pt 576 304)
+	(bus)
+)
+(connector
+	(pt 576 304)
+	(pt 576 320)
+	(bus)
+)
+(connector
+	(pt 576 320)
+	(pt 576 336)
+	(bus)
+)
+(connector
+	(pt 576 336)
+	(pt 576 352)
+	(bus)
+)
+(connector
+	(pt 576 352)
+	(pt 576 368)
+	(bus)
+)
+(connector
+	(text "out[0]" (rect 518 112 546 129)(font "Intel Clear" (font_size 6)))
+	(pt 512 128)
+	(pt 576 128)
+)
+(connector
+	(text "out[1]" (rect 523 128 551 145)(font "Intel Clear" (font_size 6)))
+	(pt 512 144)
+	(pt 576 144)
+)
+(connector
+	(text "out[2]" (rect 523 144 551 161)(font "Intel Clear" (font_size 6)))
+	(pt 512 160)
+	(pt 576 160)
+)
+(connector
+	(text "out[3]" (rect 525 160 553 177)(font "Intel Clear" (font_size 6)))
+	(pt 512 176)
+	(pt 576 176)
+)
+(connector
+	(text "out[4]" (rect 523 176 551 193)(font "Intel Clear" (font_size 6)))
+	(pt 512 192)
+	(pt 576 192)
+)
+(connector
+	(text "out[5]" (rect 523 192 551 209)(font "Intel Clear" (font_size 6)))
+	(pt 512 208)
+	(pt 576 208)
+)
+(connector
+	(text "out[6]" (rect 522 208 550 225)(font "Intel Clear" (font_size 6)))
+	(pt 512 224)
+	(pt 576 224)
+)
+(connector
+	(text "out[7]" (rect 522 224 550 241)(font "Intel Clear" (font_size 6)))
+	(pt 512 240)
+	(pt 576 240)
+)
+(connector
+	(text "out[8]" (rect 522 240 550 257)(font "Intel Clear" (font_size 6)))
+	(pt 512 256)
+	(pt 576 256)
+)
+(connector
+	(text "out[9]" (rect 523 256 551 273)(font "Intel Clear" (font_size 6)))
+	(pt 512 272)
+	(pt 576 272)
+)
+(connector
+	(text "out[10]" (rect 522 272 556 289)(font "Intel Clear" (font_size 6)))
+	(pt 512 288)
+	(pt 576 288)
+)
+(connector
+	(text "out[11]" (rect 521 288 555 305)(font "Intel Clear" (font_size 6)))
+	(pt 512 304)
+	(pt 576 304)
+)
+(connector
+	(text "out[12]" (rect 521 304 555 321)(font "Intel Clear" (font_size 6)))
+	(pt 512 320)
+	(pt 576 320)
+)
+(connector
+	(text "out[13]" (rect 521 320 555 337)(font "Intel Clear" (font_size 6)))
+	(pt 512 336)
+	(pt 576 336)
+)
+(connector
+	(text "out[14]" (rect 524 336 558 353)(font "Intel Clear" (font_size 6)))
+	(pt 512 352)
+	(pt 576 352)
+)
+(connector
+	(text "out[15]" (rect 523 352 557 369)(font "Intel Clear" (font_size 6)))
+	(pt 512 368)
+	(pt 576 368)
+)
+(junction (pt 448 128))
+(junction (pt 448 144))
+(junction (pt 448 160))
+(junction (pt 448 176))
+(junction (pt 448 192))
+(junction (pt 448 208))
+(junction (pt 448 224))
+(junction (pt 448 240))
+(junction (pt 448 256))
+(junction (pt 448 272))
+(junction (pt 448 288))
+(junction (pt 448 304))
+(junction (pt 448 320))
+(junction (pt 448 336))
+(junction (pt 448 352))
+(junction (pt 576 144))
+(junction (pt 576 160))
+(junction (pt 576 176))
+(junction (pt 576 192))
+(junction (pt 576 208))
+(junction (pt 576 224))
+(junction (pt 576 240))
+(junction (pt 576 256))
+(junction (pt 576 272))
+(junction (pt 576 288))
+(junction (pt 576 304))
+(junction (pt 576 320))
+(junction (pt 576 336))
+(junction (pt 576 352))
+(junction (pt 576 368))
