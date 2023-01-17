@@ -435,18 +435,6 @@ refer to the applicable agreement for further details.
 	(pt 584 400)
 )
 (connector
-	(text "inc3" (rect 711 384 729 401)(font "Intel Clear" (font_size 6)))
-	(pt 696 400)
-	(pt 744 400)
-	(bus)
-)
-(connector
-	(text "inc_inv3" (rect 704 488 740 505)(font "Intel Clear" (font_size 6)))
-	(pt 696 504)
-	(pt 744 504)
-	(bus)
-)
-(connector
 	(pt 584 80)
 	(pt 584 112)
 	(bus)
@@ -483,18 +471,6 @@ refer to the applicable agreement for further details.
 	(pt 584 312)
 )
 (connector
-	(text "inc_inv3" (rect 472 72 508 89)(font "Intel Clear" (font_size 6)))
-	(pt 520 88)
-	(pt 464 88)
-	(bus)
-)
-(connector
-	(text "inc3" (rect 472 144 490 161)(font "Intel Clear" (font_size 6)))
-	(pt 520 160)
-	(pt 464 160)
-	(bus)
-)
-(connector
 	(text "inc_inv" (rect 464 224 494 241)(font "Intel Clear" (font_size 6)))
 	(pt 520 240)
 	(pt 456 240)
@@ -503,5 +479,29 @@ refer to the applicable agreement for further details.
 	(text "inc" (rect 464 304 476 321)(font "Intel Clear" (font_size 6)))
 	(pt 520 320)
 	(pt 456 320)
+)
+(connector
+	(text "inc3[3..0]" (rect 711 384 753 401)(font "Intel Clear" (font_size 6)))
+	(pt 696 400)
+	(pt 744 400)
+	(bus)
+)
+(connector
+	(text "inc_inv3[3..0]" (rect 704 488 764 505)(font "Intel Clear" (font_size 6)))
+	(pt 696 504)
+	(pt 744 504)
+	(bus)
+)
+(connector
+	(text "inc_inv3[3..0]" (rect 472 72 532 89)(font "Intel Clear" (font_size 6)))
+	(pt 520 88)
+	(pt 464 88)
+	(bus)
+)
+(connector
+	(text "inc3[3..0]" (rect 472 144 514 161)(font "Intel Clear" (font_size 6)))
+	(pt 520 160)
+	(pt 464 160)
+	(bus)
 )
 (junction (pt 456 400))
